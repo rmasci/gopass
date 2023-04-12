@@ -8,10 +8,12 @@ Example:
 ```go
 package main
 import "fmt"
-import "github.com/howeyc/gopass"
+import "github.com/rmasci/gopass"
 func main() {
 	fmt.Printf("Password: ")
 	pass := gopass.GetPasswd()
     // Do something with pass
 }
 ```
+
+This is a fork from [https://github.com/howeyc/gopass](https://github.com/howeyc/gopass)
